@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 //HOW TO PRINT A LINKED LIST (Iterative method)
 
-/*import org.w3c.dom.Node;
+import org.w3c.dom.Node;
 
 public class Node {
     int data;
@@ -35,11 +35,11 @@ class Test{
         Print(head);
         
     }
-}*/
+}
 
 //sum of all element of the linked list;
 
-/*class Node {
+class Node {
     int data;
     Node next;
 
@@ -72,11 +72,11 @@ class Test {
         temp1.next = temp2;
         sum(head);
     }
-}*/
+}
 
 //traversing the singly linked list (Recursive method)
 
-/*class Node{
+class Node{
     int data;
     Node next;
     Node(int data){
@@ -100,11 +100,11 @@ class Test{
         t1.next=t2;
         print(head);
     }
-}*/
+}
 
 //searche in linked list
 
-/*public class Node {
+public class Node {
     int data;
     Node next;
 
@@ -143,7 +143,7 @@ class Test {
         int x = 45;
         System.out.println(fun(head, x));
     }
-}*/
+}
 
 //Add element at the front of linked list
 class Ankit{
