@@ -1,10 +1,4 @@
-import java.util.LinkedList;
 
-//LINKED LIST
-
-//HOW TO PRINT A LINKED LIST (Iterative method)
-
-import org.w3c.dom.Node;
 
 public class Node {
     int data;
