@@ -1,6 +1,6 @@
 
 
-public class Node {
+/*public class Node {
     int data;
     Node next;
     Node(int data){
@@ -138,9 +138,9 @@ class Test {
         System.out.println(fun(head, x));
     }
 }
-
+*/
 //Add element at the front of linked list
-class Ankit{
+/*class Ankit{
 class Node{
     int data;
     Node next;
@@ -182,4 +182,58 @@ class Node{
             obj.display();
         }
 
+}*/
+
+//insert element at given position in linked list
+
+class Node{
+    int data;
+    Node next;
+    Node(int data){
+        this.data=data;
+    }
 }
+class Test{
+    static Node insertPos(Node head,int data,int pos){
+        Node temp=new Node(data);
+        if(pos==1){
+            temp.next=head;
+            return head;
+        }
+        Node curr=head;
+        for(int i=1;i<=pos-2 && curr!=null;i++){
+           curr=curr.next;
+        }
+        if(curr==null){
+            return head;
+        }
+        temp.next=curr.next;
+        curr.next=temp;
+        return head;
+    }
+    static void Print(Node head) {
+        Node cur = head;
+        while(cur!=null){
+            System.out.print(cur.data+" ");
+            cur = cur.next;
+        }
+    }
+    public static void main(String[] args) {
+        Node head=new Node(10);
+        Node t1=new Node(34);
+        Node t2=new Node(23);
+        Node t3=new Node(78);
+        Node t4=new Node(89);
+        Node t5=new Node(11);
+        head.next=t1;
+        t1.next=t2;
+        t2.next=t3;
+        t3.next=t4;
+        t4.next=t5;
+        insertPos(head, 100, 5);
+        Print(head);
+    }
+
+}
+
+
