@@ -1,6 +1,6 @@
 
 
-/*public class Node {
+public class Node {
     int data;
     Node next;
     Node(int data){
@@ -138,9 +138,9 @@ class Test {
         System.out.println(fun(head, x));
     }
 }
-*/
+
 //Add element at the front of linked list
-/*class Ankit{
+class Ankit{
 class Node{
     int data;
     Node next;
@@ -182,7 +182,7 @@ class Node{
             obj.display();
         }
 
-}*/
+}
 
 //insert element at given position in linked list
 
